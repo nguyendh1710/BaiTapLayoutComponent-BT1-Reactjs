@@ -1,0 +1,16 @@
+import Body from "./Body"
+import Footer from "./Footer"
+import Header from "./Header"
+
+
+
+
+export default function BaiTapThucHanhLayout() {
+  return (
+    <>
+                  <Header/>
+                  <Body/>
+                  <Footer/>
+    </>
+  )
+}
